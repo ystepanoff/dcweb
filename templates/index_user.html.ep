@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= $DCWeb::title =%></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="/css" />
+    <script type="text/javascript" src="/js"></script>
+</head>
+<body onLoad="init();">
+    <div id="more" class="center">
+	<form>
+	    <input type="button" value="Ещё!" class="more_button" onClick="load_more();" />
+	</form>
+    </div>
+    <div id="messages"></div>
+    <div id="login_form" class="form">
+	<form onSubmit="send_message('<%= $hash =%>'); return false;">
+	    <b><%= $user =%>: </b>
+	    <input type="text" name="message" id="idMessage" size="50" autofocus autocomplete="off" />
+	    &nbsp;
+	    <input type="submit" value="Отправить" />&nbsp;
+            <input type="button" value="Выход" onClick="window.location.href='/logout';" />
+	</form>
+    </div>
+</body>
+</html>
+

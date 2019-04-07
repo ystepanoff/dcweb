@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= $DCWeb::title =%></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="/css" />
+    <script type="text/javascript" src="/js"></script>
+</head>
+<body onLoad="init();">
+    <div id="more" class="center">
+	<form>
+	    <input type="button" value="Ещё!" class="more_button" onClick="load_more();" />
+	</form>
+    </div>
+    <div id="messages"></div>
+    <div id="login_form" class="form">
+	<form method="POST" action="/login">
+	    <input type="text" placeholder="login" name="login" size="12" />
+	    &nbsp;
+	    <input type="password" placeholder="password" name="password" size="12" />
+	    &nbsp;
+	    <input type="submit" value="Войти" />
+	</form>
+    </div>
+</body>
+</html>

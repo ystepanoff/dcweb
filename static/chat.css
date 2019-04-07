@@ -1,0 +1,117 @@
+body
+{
+    /*font: 16px Helvetica,Verdana,Georgia;
+    text-shadow: -0.005em 0 red, 0.005em 0 cyan;*/
+    font: 15px 'PT Serif', serif;
+    height: 100%;
+    /*padding-bottom: 30pt;*/
+}
+
+@font-face
+{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Serif'), local('PTSerif-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptserif/v4/zjBCKJs0bE-LvM0teIV5VPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face
+{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Serif Bold'), local('PTSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/ptserif/v4/QABk9IxT-LFTJ_dQzv7xpGOb2gHztoQeulij-1lvl-8.woff) format('woff');
+}
+
+@font-face
+{
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://themes.googleusercontent.com/static/fonts/ptserif/v4/3Nwg9VzlwLXPq3fNKwVRMBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+.time_column
+{
+    color: #888888;
+    vertical-align: text-top;
+    padding: 5px 3px;
+}
+
+.user_column
+{
+    font-weight: bold;
+    text-align: right;
+    vertical-align: text-top;
+    right: 0px;
+}
+
+.msg_column
+{
+    text-align: left;
+    vertical-align: text-top;
+    left: 0px;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -hp-pre-wrap;
+    word-wrap: break-word;
+}
+
+.box
+{
+    /*background-color: #e0e0e0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;*/
+    position: relative;
+    float: right;
+    bottom: 20px;
+    right: 50px;
+}
+
+.quit_button
+{
+    position: relative;
+    float: right;
+    bottom: 20px;
+    right: 50px;
+}
+
+.more_button
+{
+    border: 1px solid #777777;
+    background: #6e9e2d;
+    color: white;
+    font: bold 11px 'Trebuchet MS';
+    padding: 4px;
+    cursor: pointer;
+    width: 100%;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.center
+{
+    margin: auto;
+    text-align: center;
+}
+
+.form
+{
+    width: 100%;
+/*    position: fixed; 
+    height: 30pt;
+    width: 100%;
+    background: white;
+    bottom: 0;
+    left: 0;
+    padding: 5px;*/
+}
+

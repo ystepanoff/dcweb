@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= $DCWeb::title =%></title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="/css" />
+    <script type="text/javascript" src="/history_js"></script>
+</head>
+<body onLoad="load_history();">
+    <div id="more_button" class="center">
+	<form>
+	    <input type="button" value="Ещё!" onClick="load_more();" />
+	</form>
+    </div>
+    <div id="messages"></div>
+    <div id="box" class="box">
+	<form>
+	    <input type="button" value="Чатик" onClick="window.location.href='/dc';" />
+	</form>
+    </div>
+</body>
+</html>

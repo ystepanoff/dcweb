@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="/css" />
+</head>
+<body>
+    <img src='/404' alt='404 Not Found' />
+</body>
+</html>

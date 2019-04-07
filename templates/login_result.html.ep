@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= $DCWeb::title =%></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <meta http-equiv="refresh" content="1;URL='/dc'" />
+    <link rel="stylesheet" type="text/css" href="/css" />
+    <script type="text/javascript" src="/js"></script>
+</head>
+<body>
+    <%= $result =%>
+</body>
+</html>
